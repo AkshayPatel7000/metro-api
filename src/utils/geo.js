@@ -5,6 +5,7 @@ export function distanceInMeters(
     lon2
 ) {
     const R = 6371000;
+
     const dLat =
         ((lat2 - lat1) * Math.PI) / 180;
 
