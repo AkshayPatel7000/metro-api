@@ -1,0 +1,3748 @@
+{
+    "stations": {
+        "1": {
+            "id": "1",
+            "name": "Dilshad Garden",
+            "coordinates": {
+                "lat": 28.675991,
+                "lng": 77.321495
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 8,
+                    "previous": "232",
+                    "next": "2"
+                }
+            }
+        },
+        "2": {
+            "id": "2",
+            "name": "Jhilmil",
+            "coordinates": {
+                "lat": 28.675648,
+                "lng": 77.312393
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 9,
+                    "previous": "1",
+                    "next": null
+                }
+            }
+        },
+        "4": {
+            "id": "4",
+            "name": "Shahdara",
+            "coordinates": {
+                "lat": 28.673531,
+                "lng": 77.28727
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 11,
+                    "previous": null,
+                    "next": "5"
+                }
+            }
+        },
+        "5": {
+            "id": "5",
+            "name": "Welcome",
+            "coordinates": {
+                "lat": 28.671986,
+                "lng": 77.277931
+            },
+            "lines": [
+                "red",
+                "pink"
+            ],
+            "interchange": true,
+            "routes": {
+                "red": {
+                    "sequence": 12,
+                    "previous": "4",
+                    "next": null
+                },
+                "pink": {
+                    "sequence": 40,
+                    "previous": "213",
+                    "next": "214"
+                }
+            }
+        },
+        "7": {
+            "id": "7",
+            "name": "Shastri Park",
+            "coordinates": {
+                "lat": 28.668451,
+                "lng": 77.250404
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 14,
+                    "previous": null,
+                    "next": "8"
+                }
+            }
+        },
+        "8": {
+            "id": "8",
+            "name": "Kashmere Gate",
+            "coordinates": {
+                "lat": 28.667879,
+                "lng": 77.228012
+            },
+            "lines": [
+                "yellow",
+                "red",
+                "violet"
+            ],
+            "interchange": true,
+            "routes": {
+                "yellow": {
+                    "sequence": 11,
+                    "previous": "46",
+                    "next": "47"
+                },
+                "red": {
+                    "sequence": 15,
+                    "previous": "7",
+                    "next": "9"
+                },
+                "violet": {
+                    "sequence": 0,
+                    "previous": null,
+                    "next": "160"
+                }
+            }
+        },
+        "9": {
+            "id": "9",
+            "name": "Tis Hazari",
+            "coordinates": {
+                "lat": 28.667137,
+                "lng": 77.216721
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 16,
+                    "previous": "8",
+                    "next": null
+                }
+            }
+        },
+        "11": {
+            "id": "11",
+            "name": "Pratap Nagar",
+            "coordinates": {
+                "lat": 28.666632,
+                "lng": 77.196869
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 18,
+                    "previous": null,
+                    "next": "12"
+                }
+            }
+        },
+        "12": {
+            "id": "12",
+            "name": "Shastri Nagar",
+            "coordinates": {
+                "lat": 28.670135,
+                "lng": 77.181679
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 19,
+                    "previous": "11",
+                    "next": "13"
+                }
+            }
+        },
+        "13": {
+            "id": "13",
+            "name": "Inderlok",
+            "coordinates": {
+                "lat": 28.673452,
+                "lng": 77.170235
+            },
+            "lines": [
+                "red",
+                "green"
+            ],
+            "interchange": true,
+            "routes": {
+                "red": {
+                    "sequence": 20,
+                    "previous": "12",
+                    "next": "14"
+                },
+                "green": {
+                    "sequence": 2,
+                    "previous": "35",
+                    "next": "34"
+                }
+            }
+        },
+        "14": {
+            "id": "14",
+            "name": "Kanhaiya Nagar",
+            "coordinates": {
+                "lat": 28.682386,
+                "lng": 77.162552
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 21,
+                    "previous": "13",
+                    "next": "15"
+                }
+            }
+        },
+        "15": {
+            "id": "15",
+            "name": "Keshav Puram",
+            "coordinates": {
+                "lat": 28.688944,
+                "lng": 77.161774
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 22,
+                    "previous": "14",
+                    "next": null
+                }
+            }
+        },
+        "17": {
+            "id": "17",
+            "name": "Kohat Enclave",
+            "coordinates": {
+                "lat": 28.697943,
+                "lng": 77.140465
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 24,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "21": {
+            "id": "21",
+            "name": "Rithala",
+            "coordinates": {
+                "lat": 28.720821,
+                "lng": 77.105042
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 28,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "22": {
+            "id": "22",
+            "name": "Mundka",
+            "coordinates": {
+                "lat": 28.682411,
+                "lng": 77.028282
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 16,
+                    "previous": "23",
+                    "next": null
+                }
+            }
+        },
+        "23": {
+            "id": "23",
+            "name": "Rajdhani Park",
+            "coordinates": {
+                "lat": 28.682217,
+                "lng": 77.043869
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 15,
+                    "previous": "24",
+                    "next": "22"
+                }
+            }
+        },
+        "24": {
+            "id": "24",
+            "name": "Nangloi Railway Station",
+            "coordinates": {
+                "lat": 28.682091,
+                "lng": 77.05619
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 14,
+                    "previous": "25",
+                    "next": "23"
+                }
+            }
+        },
+        "25": {
+            "id": "25",
+            "name": "Nangloi",
+            "coordinates": {
+                "lat": 28.682356,
+                "lng": 77.064728
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 13,
+                    "previous": "26",
+                    "next": "24"
+                }
+            }
+        },
+        "26": {
+            "id": "26",
+            "name": "Maharaja Surajmal Stadium",
+            "coordinates": {
+                "lat": 28.681833,
+                "lng": 77.073891
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 12,
+                    "previous": "27",
+                    "next": "25"
+                }
+            }
+        },
+        "27": {
+            "id": "27",
+            "name": "Udyog Nagar",
+            "coordinates": {
+                "lat": 28.681047,
+                "lng": 77.078674
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 11,
+                    "previous": null,
+                    "next": "26"
+                }
+            }
+        },
+        "29": {
+            "id": "29",
+            "name": "Paschim Vihar (West)",
+            "coordinates": {
+                "lat": 28.678539,
+                "lng": 77.102119
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 9,
+                    "previous": "30",
+                    "next": null
+                }
+            }
+        },
+        "30": {
+            "id": "30",
+            "name": "Paschim Vihar (East)",
+            "coordinates": {
+                "lat": 28.677305,
+                "lng": 77.112251
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 8,
+                    "previous": "31",
+                    "next": "29"
+                }
+            }
+        },
+        "31": {
+            "id": "31",
+            "name": "Madipur",
+            "coordinates": {
+                "lat": 28.676418,
+                "lng": 77.117294
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 7,
+                    "previous": "32",
+                    "next": "30"
+                }
+            }
+        },
+        "32": {
+            "id": "32",
+            "name": "Shivaji Park",
+            "coordinates": {
+                "lat": 28.674965,
+                "lng": 77.128258
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 6,
+                    "previous": "176",
+                    "next": "31"
+                }
+            }
+        },
+        "33": {
+            "id": "33",
+            "name": "Punjabi Bagh",
+            "coordinates": {
+                "lat": 28.672943,
+                "lng": 77.146011
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 4,
+                    "previous": "34",
+                    "next": "176"
+                }
+            }
+        },
+        "34": {
+            "id": "34",
+            "name": "Ashok Park Main",
+            "coordinates": {
+                "lat": 28.671572,
+                "lng": 77.155159
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 3,
+                    "previous": "13",
+                    "next": "33"
+                }
+            }
+        },
+        "35": {
+            "id": "35",
+            "name": "Satguru Ram Singh Marg",
+            "coordinates": {
+                "lat": 28.662188,
+                "lng": 77.157829
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 1,
+                    "previous": "100",
+                    "next": "13"
+                }
+            }
+        },
+        "36": {
+            "id": "36",
+            "name": "Samaypur Badli",
+            "coordinates": {
+                "lat": 28.742872,
+                "lng": 77.146545
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 0,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "38": {
+            "id": "38",
+            "name": "Haiderpur Badli Mor",
+            "coordinates": {
+                "lat": 28.718657,
+                "lng": 77.149956
+            },
+            "lines": [
+                "yellow",
+                "magentaExt",
+                "rapid"
+            ],
+            "interchange": true,
+            "routes": {
+                "yellow": {
+                    "sequence": 2,
+                    "previous": null,
+                    "next": "39"
+                },
+                "magentaExt": {
+                    "sequence": 2,
+                    "previous": null,
+                    "next": null
+                },
+                "rapid": {
+                    "sequence": 2,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "39": {
+            "id": "39",
+            "name": "Jahangirpuri",
+            "coordinates": {
+                "lat": 28.72818,
+                "lng": 77.16124
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 3,
+                    "previous": "38",
+                    "next": "40"
+                }
+            }
+        },
+        "40": {
+            "id": "40",
+            "name": "Adarsh Nagar",
+            "coordinates": {
+                "lat": 28.696377,
+                "lng": 77.208809
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 4,
+                    "previous": "39",
+                    "next": "41"
+                }
+            }
+        },
+        "41": {
+            "id": "41",
+            "name": "Azadpur",
+            "coordinates": {
+                "lat": 28.707287,
+                "lng": 77.179863
+            },
+            "lines": [
+                "yellow",
+                "pink"
+            ],
+            "interchange": true,
+            "routes": {
+                "yellow": {
+                    "sequence": 5,
+                    "previous": "40",
+                    "next": "42"
+                },
+                "pink": {
+                    "sequence": 9,
+                    "previous": "173",
+                    "next": "174"
+                }
+            }
+        },
+        "42": {
+            "id": "42",
+            "name": "Model Town",
+            "coordinates": {
+                "lat": 28.702833,
+                "lng": 77.193764
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 6,
+                    "previous": "41",
+                    "next": null
+                }
+            }
+        },
+        "44": {
+            "id": "44",
+            "name": "Vishwavidyalaya",
+            "coordinates": {
+                "lat": 28.694765,
+                "lng": 77.212418
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 8,
+                    "previous": null,
+                    "next": "45"
+                }
+            }
+        },
+        "45": {
+            "id": "45",
+            "name": "Vidhan Sabha",
+            "coordinates": {
+                "lat": 28.687845,
+                "lng": 77.221626
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 9,
+                    "previous": "44",
+                    "next": "46"
+                }
+            }
+        },
+        "46": {
+            "id": "46",
+            "name": "Civil Lines",
+            "coordinates": {
+                "lat": 28.676945,
+                "lng": 77.224953
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 10,
+                    "previous": "45",
+                    "next": "8"
+                }
+            }
+        },
+        "47": {
+            "id": "47",
+            "name": "Chandni Chowk",
+            "coordinates": {
+                "lat": 28.656443,
+                "lng": 77.229218
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 12,
+                    "previous": "8",
+                    "next": "48"
+                }
+            }
+        },
+        "48": {
+            "id": "48",
+            "name": "Chawri Bazar",
+            "coordinates": {
+                "lat": 28.649635,
+                "lng": 77.22628
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 13,
+                    "previous": "47",
+                    "next": null
+                }
+            }
+        },
+        "50": {
+            "id": "50",
+            "name": "Rajiv Chowk",
+            "coordinates": {
+                "lat": 28.632896,
+                "lng": 77.219574
+            },
+            "lines": [
+                "yellow",
+                "blue"
+            ],
+            "interchange": true,
+            "routes": {
+                "yellow": {
+                    "sequence": 15,
+                    "previous": null,
+                    "next": "51"
+                },
+                "blue": {
+                    "sequence": 28,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "51": {
+            "id": "51",
+            "name": "Patel Chowk",
+            "coordinates": {
+                "lat": 28.622967,
+                "lng": 77.212288
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 16,
+                    "previous": "50",
+                    "next": "52"
+                }
+            }
+        },
+        "52": {
+            "id": "52",
+            "name": "Central Secretariat",
+            "coordinates": {
+                "lat": 28.614973,
+                "lng": 77.212029
+            },
+            "lines": [
+                "yellow",
+                "violet"
+            ],
+            "interchange": true,
+            "routes": {
+                "yellow": {
+                    "sequence": 17,
+                    "previous": "51",
+                    "next": null
+                },
+                "violet": {
+                    "sequence": 7,
+                    "previous": "123",
+                    "next": "124"
+                }
+            }
+        },
+        "54": {
+            "id": "54",
+            "name": "Lok Kalyan Marg",
+            "coordinates": {
+                "lat": 28.597519,
+                "lng": 77.209122
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 19,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "56": {
+            "id": "56",
+            "name": "Dilli Haat - INA",
+            "coordinates": {
+                "lat": 28.575195,
+                "lng": 77.209473
+            },
+            "lines": [
+                "yellow",
+                "pink"
+            ],
+            "interchange": true,
+            "routes": {
+                "yellow": {
+                    "sequence": 21,
+                    "previous": null,
+                    "next": "57"
+                },
+                "pink": {
+                    "sequence": 23,
+                    "previous": "205",
+                    "next": "206"
+                }
+            }
+        },
+        "57": {
+            "id": "57",
+            "name": "AIIMS",
+            "coordinates": {
+                "lat": 28.568199,
+                "lng": 77.207947
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 22,
+                    "previous": "56",
+                    "next": "58"
+                }
+            }
+        },
+        "58": {
+            "id": "58",
+            "name": "Green Park",
+            "coordinates": {
+                "lat": 28.559853,
+                "lng": 77.206902
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 23,
+                    "previous": "57",
+                    "next": "59"
+                }
+            }
+        },
+        "59": {
+            "id": "59",
+            "name": "Hauz Khas",
+            "coordinates": {
+                "lat": 28.543346,
+                "lng": 77.206673
+            },
+            "lines": [
+                "yellow",
+                "magenta"
+            ],
+            "interchange": true,
+            "routes": {
+                "yellow": {
+                    "sequence": 24,
+                    "previous": "58",
+                    "next": "60"
+                },
+                "magenta": {
+                    "sequence": 12,
+                    "previous": "186",
+                    "next": "185"
+                }
+            }
+        },
+        "60": {
+            "id": "60",
+            "name": "Malviya Nagar",
+            "coordinates": {
+                "lat": 28.52817,
+                "lng": 77.205612
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 25,
+                    "previous": "59",
+                    "next": "61"
+                }
+            }
+        },
+        "61": {
+            "id": "61",
+            "name": "Saket",
+            "coordinates": {
+                "lat": 28.520638,
+                "lng": 77.199379
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 26,
+                    "previous": "60",
+                    "next": "62"
+                }
+            }
+        },
+        "62": {
+            "id": "62",
+            "name": "Qutab Minar",
+            "coordinates": {
+                "lat": 28.512714,
+                "lng": 77.185791
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 27,
+                    "previous": "61",
+                    "next": null
+                }
+            }
+        },
+        "64": {
+            "id": "64",
+            "name": "Sultanpur",
+            "coordinates": {
+                "lat": 28.499214,
+                "lng": 77.161362
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 29,
+                    "previous": null,
+                    "next": "65"
+                }
+            }
+        },
+        "65": {
+            "id": "65",
+            "name": "Ghitorni",
+            "coordinates": {
+                "lat": 28.49383,
+                "lng": 77.149071
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 30,
+                    "previous": "64",
+                    "next": "66"
+                }
+            }
+        },
+        "66": {
+            "id": "66",
+            "name": "Arjan Garh",
+            "coordinates": {
+                "lat": 28.48082,
+                "lng": 77.12587
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 31,
+                    "previous": "65",
+                    "next": null
+                }
+            }
+        },
+        "68": {
+            "id": "68",
+            "name": "Sikanderpur",
+            "coordinates": {
+                "lat": 28.481352,
+                "lng": 77.092995
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 33,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "70": {
+            "id": "70",
+            "name": "IFFCO Chowk",
+            "coordinates": {
+                "lat": 28.472137,
+                "lng": 77.072502
+            },
+            "lines": [
+                "yellow"
+            ],
+            "interchange": false,
+            "routes": {
+                "yellow": {
+                    "sequence": 35,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "75": {
+            "id": "75",
+            "name": "Karkarduma",
+            "coordinates": {
+                "lat": 28.648653,
+                "lng": 77.304581
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 36,
+                    "previous": null,
+                    "next": "211"
+                }
+            }
+        },
+        "79": {
+            "id": "79",
+            "name": "Noida City Centre",
+            "coordinates": {
+                "lat": 28.574593,
+                "lng": 77.356117
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 43,
+                    "previous": "80",
+                    "next": null
+                }
+            }
+        },
+        "80": {
+            "id": "80",
+            "name": "Golf Course",
+            "coordinates": {
+                "lat": 28.566917,
+                "lng": 77.345726
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 42,
+                    "previous": "81",
+                    "next": "79"
+                }
+            }
+        },
+        "81": {
+            "id": "81",
+            "name": "Botanical Garden",
+            "coordinates": {
+                "lat": 28.564198,
+                "lng": 77.334656
+            },
+            "lines": [
+                "blue",
+                "magenta"
+            ],
+            "interchange": true,
+            "routes": {
+                "blue": {
+                    "sequence": 41,
+                    "previous": null,
+                    "next": "80"
+                },
+                "magenta": {
+                    "sequence": 25,
+                    "previous": "161",
+                    "next": null
+                }
+            }
+        },
+        "85": {
+            "id": "85",
+            "name": "New Ashok Nagar",
+            "coordinates": {
+                "lat": 28.58847,
+                "lng": 77.30146
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 37,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "87": {
+            "id": "87",
+            "name": "Mayur Vihar-I",
+            "coordinates": {
+                "lat": 28.604425,
+                "lng": 77.289421
+            },
+            "lines": [
+                "blue",
+                "pink"
+            ],
+            "interchange": true,
+            "routes": {
+                "blue": {
+                    "sequence": 35,
+                    "previous": "88",
+                    "next": null
+                },
+                "pink": {
+                    "sequence": 29,
+                    "previous": "223",
+                    "next": null
+                }
+            }
+        },
+        "88": {
+            "id": "88",
+            "name": "Akshardham",
+            "coordinates": {
+                "lat": 28.618364,
+                "lng": 77.279816
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 34,
+                    "previous": "89",
+                    "next": "87"
+                }
+            }
+        },
+        "89": {
+            "id": "89",
+            "name": "Yamuna Bank",
+            "coordinates": {
+                "lat": 28.623178,
+                "lng": 77.267937
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 33,
+                    "previous": "90",
+                    "next": "88"
+                }
+            }
+        },
+        "90": {
+            "id": "90",
+            "name": "Indraprastha",
+            "coordinates": {
+                "lat": 28.620272,
+                "lng": 77.250076
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 32,
+                    "previous": "91",
+                    "next": "89"
+                }
+            }
+        },
+        "91": {
+            "id": "91",
+            "name": "Supreme Court",
+            "coordinates": {
+                "lat": 28.623438,
+                "lng": 77.2425
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 31,
+                    "previous": "92",
+                    "next": "90"
+                }
+            }
+        },
+        "92": {
+            "id": "92",
+            "name": "Mandi House",
+            "coordinates": {
+                "lat": 28.625816,
+                "lng": 77.234726
+            },
+            "lines": [
+                "blue",
+                "violet"
+            ],
+            "interchange": true,
+            "routes": {
+                "blue": {
+                    "sequence": 30,
+                    "previous": null,
+                    "next": "91"
+                },
+                "violet": {
+                    "sequence": 5,
+                    "previous": "122",
+                    "next": "123"
+                }
+            }
+        },
+        "95": {
+            "id": "95",
+            "name": "Jhandewalan",
+            "coordinates": {
+                "lat": 28.644312,
+                "lng": 77.199791
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 26,
+                    "previous": "96",
+                    "next": null
+                }
+            }
+        },
+        "96": {
+            "id": "96",
+            "name": "Karol Bagh",
+            "coordinates": {
+                "lat": 28.643925,
+                "lng": 77.188416
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 25,
+                    "previous": "97",
+                    "next": "95"
+                }
+            }
+        },
+        "97": {
+            "id": "97",
+            "name": "Rajendra Place",
+            "coordinates": {
+                "lat": 28.64241,
+                "lng": 77.191833
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 24,
+                    "previous": "98",
+                    "next": "96"
+                }
+            }
+        },
+        "98": {
+            "id": "98",
+            "name": "Patel Nagar",
+            "coordinates": {
+                "lat": 28.645037,
+                "lng": 77.167046
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 23,
+                    "previous": "99",
+                    "next": "97"
+                }
+            }
+        },
+        "99": {
+            "id": "99",
+            "name": "Shadipur",
+            "coordinates": {
+                "lat": 28.65143,
+                "lng": 77.156021
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 22,
+                    "previous": "100",
+                    "next": "98"
+                }
+            }
+        },
+        "100": {
+            "id": "100",
+            "name": "Kirti Nagar",
+            "coordinates": {
+                "lat": 28.655773,
+                "lng": 77.148499
+            },
+            "lines": [
+                "blue",
+                "green"
+            ],
+            "interchange": true,
+            "routes": {
+                "blue": {
+                    "sequence": 21,
+                    "previous": "101",
+                    "next": "99"
+                },
+                "green": {
+                    "sequence": 0,
+                    "previous": null,
+                    "next": "35"
+                }
+            }
+        },
+        "101": {
+            "id": "101",
+            "name": "Moti Nagar",
+            "coordinates": {
+                "lat": 28.657803,
+                "lng": 77.140488
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 20,
+                    "previous": "102",
+                    "next": "100"
+                }
+            }
+        },
+        "102": {
+            "id": "102",
+            "name": "Ramesh Nagar",
+            "coordinates": {
+                "lat": 28.652809,
+                "lng": 77.131462
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 19,
+                    "previous": "103",
+                    "next": "101"
+                }
+            }
+        },
+        "103": {
+            "id": "103",
+            "name": "Rajouri Garden",
+            "coordinates": {
+                "lat": 28.649157,
+                "lng": 77.122749
+            },
+            "lines": [
+                "blue",
+                "pink"
+            ],
+            "interchange": true,
+            "routes": {
+                "blue": {
+                    "sequence": 18,
+                    "previous": "104",
+                    "next": "102"
+                },
+                "pink": {
+                    "sequence": 15,
+                    "previous": null,
+                    "next": "178"
+                }
+            }
+        },
+        "104": {
+            "id": "104",
+            "name": "Tagore Garden",
+            "coordinates": {
+                "lat": 28.643795,
+                "lng": 77.112747
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 17,
+                    "previous": null,
+                    "next": "103"
+                }
+            }
+        },
+        "106": {
+            "id": "106",
+            "name": "Tilak Nagar",
+            "coordinates": {
+                "lat": 28.636568,
+                "lng": 77.096336
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 15,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "109": {
+            "id": "109",
+            "name": "Uttam Nagar East",
+            "coordinates": {
+                "lat": 28.624643,
+                "lng": 77.063126
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 12,
+                    "previous": "110",
+                    "next": null
+                }
+            }
+        },
+        "110": {
+            "id": "110",
+            "name": "Uttam Nagar West",
+            "coordinates": {
+                "lat": 28.621672,
+                "lng": 77.055664
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 11,
+                    "previous": "111",
+                    "next": "109"
+                }
+            }
+        },
+        "111": {
+            "id": "111",
+            "name": "Nawada",
+            "coordinates": {
+                "lat": 28.620222,
+                "lng": 77.044991
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 10,
+                    "previous": "112",
+                    "next": "110"
+                }
+            }
+        },
+        "112": {
+            "id": "112",
+            "name": "Dwarka Mor",
+            "coordinates": {
+                "lat": 28.619366,
+                "lng": 77.033188
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 9,
+                    "previous": null,
+                    "next": "111"
+                }
+            }
+        },
+        "114": {
+            "id": "114",
+            "name": "Dwarka Sector - 14",
+            "coordinates": {
+                "lat": 28.602232,
+                "lng": 77.02594
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 7,
+                    "previous": "115",
+                    "next": null
+                }
+            }
+        },
+        "115": {
+            "id": "115",
+            "name": "Dwarka Sector - 13",
+            "coordinates": {
+                "lat": 28.59705,
+                "lng": 77.033043
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 6,
+                    "previous": "116",
+                    "next": "114"
+                }
+            }
+        },
+        "116": {
+            "id": "116",
+            "name": "Dwarka Sector - 12",
+            "coordinates": {
+                "lat": 28.592234,
+                "lng": 77.040558
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 5,
+                    "previous": "117",
+                    "next": "115"
+                }
+            }
+        },
+        "117": {
+            "id": "117",
+            "name": "Dwarka Sector - 11",
+            "coordinates": {
+                "lat": 28.58642,
+                "lng": 77.049255
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 4,
+                    "previous": "118",
+                    "next": "116"
+                }
+            }
+        },
+        "118": {
+            "id": "118",
+            "name": "Dwarka Sector - 10",
+            "coordinates": {
+                "lat": 28.581108,
+                "lng": 77.05719
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 3,
+                    "previous": "119",
+                    "next": "117"
+                }
+            }
+        },
+        "119": {
+            "id": "119",
+            "name": "Dwarka Sector - 9",
+            "coordinates": {
+                "lat": 28.574284,
+                "lng": 77.065086
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 2,
+                    "previous": "120",
+                    "next": "118"
+                }
+            }
+        },
+        "120": {
+            "id": "120",
+            "name": "Dwarka Sector - 8",
+            "coordinates": {
+                "lat": 28.565706,
+                "lng": 77.064896
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 1,
+                    "previous": "121",
+                    "next": "119"
+                }
+            }
+        },
+        "121": {
+            "id": "121",
+            "name": "Dwarka Sector - 21",
+            "coordinates": {
+                "lat": 28.552322,
+                "lng": 77.056198
+            },
+            "lines": [
+                "blue",
+                "blueExt",
+                "pinkExt",
+                "orange"
+            ],
+            "interchange": true,
+            "routes": {
+                "blue": {
+                    "sequence": 0,
+                    "previous": null,
+                    "next": "120"
+                },
+                "blueExt": {
+                    "sequence": 5,
+                    "previous": null,
+                    "next": null
+                },
+                "pinkExt": {
+                    "sequence": 5,
+                    "previous": null,
+                    "next": null
+                },
+                "orange": {
+                    "sequence": 5,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "122": {
+            "id": "122",
+            "name": "ITO",
+            "coordinates": {
+                "lat": 28.627205,
+                "lng": 77.240952
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 4,
+                    "previous": "158",
+                    "next": "92"
+                }
+            }
+        },
+        "123": {
+            "id": "123",
+            "name": "Janpath",
+            "coordinates": {
+                "lat": 28.627817,
+                "lng": 77.218956
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 6,
+                    "previous": "92",
+                    "next": "52"
+                }
+            }
+        },
+        "124": {
+            "id": "124",
+            "name": "Khan Market",
+            "coordinates": {
+                "lat": 28.602682,
+                "lng": 77.228096
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 8,
+                    "previous": "52",
+                    "next": null
+                }
+            }
+        },
+        "126": {
+            "id": "126",
+            "name": "Jangpura",
+            "coordinates": {
+                "lat": 28.583231,
+                "lng": 77.239662
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 10,
+                    "previous": null,
+                    "next": "127"
+                }
+            }
+        },
+        "127": {
+            "id": "127",
+            "name": "Lajpat Nagar",
+            "coordinates": {
+                "lat": 28.570705,
+                "lng": 77.233124
+            },
+            "lines": [
+                "violet",
+                "pink"
+            ],
+            "interchange": true,
+            "routes": {
+                "violet": {
+                    "sequence": 11,
+                    "previous": "126",
+                    "next": "128"
+                },
+                "pink": {
+                    "sequence": 25,
+                    "previous": "206",
+                    "next": "221"
+                }
+            }
+        },
+        "128": {
+            "id": "128",
+            "name": "Moolchand",
+            "coordinates": {
+                "lat": 28.564629,
+                "lng": 77.234222
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 12,
+                    "previous": "127",
+                    "next": "129"
+                }
+            }
+        },
+        "129": {
+            "id": "129",
+            "name": "Kailash Colony",
+            "coordinates": {
+                "lat": 28.554617,
+                "lng": 77.239738
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 13,
+                    "previous": "128",
+                    "next": "130"
+                }
+            }
+        },
+        "130": {
+            "id": "130",
+            "name": "Nehru Place",
+            "coordinates": {
+                "lat": 28.551134,
+                "lng": 77.251511
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 14,
+                    "previous": "129",
+                    "next": "131"
+                }
+            }
+        },
+        "131": {
+            "id": "131",
+            "name": "Kalkaji Mandir",
+            "coordinates": {
+                "lat": 28.549532,
+                "lng": 77.258789
+            },
+            "lines": [
+                "violet",
+                "magenta"
+            ],
+            "interchange": true,
+            "routes": {
+                "violet": {
+                    "sequence": 15,
+                    "previous": "130",
+                    "next": "132"
+                },
+                "magenta": {
+                    "sequence": 17,
+                    "previous": "182",
+                    "next": "167"
+                }
+            }
+        },
+        "132": {
+            "id": "132",
+            "name": "Govind Puri",
+            "coordinates": {
+                "lat": 28.544413,
+                "lng": 77.264259
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 16,
+                    "previous": "131",
+                    "next": "133"
+                }
+            }
+        },
+        "133": {
+            "id": "133",
+            "name": "Harkesh Nagar Okhla",
+            "coordinates": {
+                "lat": 28.543194,
+                "lng": 77.275955
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 17,
+                    "previous": "132",
+                    "next": "134"
+                }
+            }
+        },
+        "134": {
+            "id": "134",
+            "name": "Jasola-Apollo",
+            "coordinates": {
+                "lat": 28.538084,
+                "lng": 77.285538
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 18,
+                    "previous": "133",
+                    "next": "135"
+                }
+            }
+        },
+        "135": {
+            "id": "135",
+            "name": "Sarita Vihar",
+            "coordinates": {
+                "lat": 28.528622,
+                "lng": 77.288345
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 19,
+                    "previous": "134",
+                    "next": "136"
+                }
+            }
+        },
+        "136": {
+            "id": "136",
+            "name": "Mohan Estate",
+            "coordinates": {
+                "lat": 28.51959,
+                "lng": 77.294518
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 20,
+                    "previous": "135",
+                    "next": "137"
+                }
+            }
+        },
+        "137": {
+            "id": "137",
+            "name": "Tughlakabad Station",
+            "coordinates": {
+                "lat": 28.502232,
+                "lng": 77.29866
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 21,
+                    "previous": "136",
+                    "next": "138"
+                }
+            }
+        },
+        "138": {
+            "id": "138",
+            "name": "Badarpur Border",
+            "coordinates": {
+                "lat": 28.4932,
+                "lng": 77.30085
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 22,
+                    "previous": "137",
+                    "next": "139"
+                }
+            }
+        },
+        "139": {
+            "id": "139",
+            "name": "Sarai",
+            "coordinates": {
+                "lat": 28.47794,
+                "lng": 77.304932
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 23,
+                    "previous": "138",
+                    "next": "140"
+                }
+            }
+        },
+        "140": {
+            "id": "140",
+            "name": "NHPC Chowk",
+            "coordinates": {
+                "lat": 28.462435,
+                "lng": 77.305252
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 24,
+                    "previous": "139",
+                    "next": "141"
+                }
+            }
+        },
+        "141": {
+            "id": "141",
+            "name": "Mewala Maharajpur",
+            "coordinates": {
+                "lat": 28.4485,
+                "lng": 77.308098
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 25,
+                    "previous": "140",
+                    "next": "142"
+                }
+            }
+        },
+        "142": {
+            "id": "142",
+            "name": "Sector-28",
+            "coordinates": {
+                "lat": 28.440586,
+                "lng": 77.305992
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 26,
+                    "previous": "141",
+                    "next": "143"
+                }
+            }
+        },
+        "143": {
+            "id": "143",
+            "name": "Badkal Mor",
+            "coordinates": {
+                "lat": 28.422707,
+                "lng": 77.310234
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 27,
+                    "previous": "142",
+                    "next": "144"
+                }
+            }
+        },
+        "144": {
+            "id": "144",
+            "name": "Old Faridabad",
+            "coordinates": {
+                "lat": 28.412172,
+                "lng": 77.311272
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 28,
+                    "previous": "143",
+                    "next": "145"
+                }
+            }
+        },
+        "145": {
+            "id": "145",
+            "name": "Neelam Chowk Ajronda",
+            "coordinates": {
+                "lat": 28.400707,
+                "lng": 77.309105
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 29,
+                    "previous": "144",
+                    "next": "146"
+                }
+            }
+        },
+        "146": {
+            "id": "146",
+            "name": "Bata Chowk",
+            "coordinates": {
+                "lat": 28.386362,
+                "lng": 77.298782
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 30,
+                    "previous": "145",
+                    "next": "147"
+                }
+            }
+        },
+        "147": {
+            "id": "147",
+            "name": "Escorts Mujesar",
+            "coordinates": {
+                "lat": 28.370199,
+                "lng": 77.315002
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 31,
+                    "previous": "146",
+                    "next": "219"
+                }
+            }
+        },
+        "155": {
+            "id": "155",
+            "name": "Delhi Aerocity",
+            "coordinates": {
+                "lat": 28.548792,
+                "lng": 77.120743
+            },
+            "lines": [
+                "blueExt",
+                "pinkExt",
+                "orange"
+            ],
+            "interchange": true,
+            "routes": {
+                "blueExt": {
+                    "sequence": 3,
+                    "previous": "156",
+                    "next": null
+                },
+                "pinkExt": {
+                    "sequence": 3,
+                    "previous": "156",
+                    "next": null
+                },
+                "orange": {
+                    "sequence": 3,
+                    "previous": "156",
+                    "next": null
+                }
+            }
+        },
+        "156": {
+            "id": "156",
+            "name": "Dhaula Kuan",
+            "coordinates": {
+                "lat": 28.591776,
+                "lng": 77.161545
+            },
+            "lines": [
+                "blueExt",
+                "pinkExt",
+                "orange"
+            ],
+            "interchange": true,
+            "routes": {
+                "blueExt": {
+                    "sequence": 2,
+                    "previous": "157",
+                    "next": "155"
+                },
+                "pinkExt": {
+                    "sequence": 2,
+                    "previous": "157",
+                    "next": "155"
+                },
+                "orange": {
+                    "sequence": 2,
+                    "previous": "157",
+                    "next": "155"
+                }
+            }
+        },
+        "157": {
+            "id": "157",
+            "name": "Shivaji Stadium",
+            "coordinates": {
+                "lat": 28.629007,
+                "lng": 77.209213
+            },
+            "lines": [
+                "blueExt",
+                "pinkExt",
+                "orange"
+            ],
+            "interchange": true,
+            "routes": {
+                "blueExt": {
+                    "sequence": 1,
+                    "previous": null,
+                    "next": "156"
+                },
+                "pinkExt": {
+                    "sequence": 1,
+                    "previous": null,
+                    "next": "156"
+                },
+                "orange": {
+                    "sequence": 1,
+                    "previous": null,
+                    "next": "156"
+                }
+            }
+        },
+        "158": {
+            "id": "158",
+            "name": "Delhi Gate",
+            "coordinates": {
+                "lat": 28.640488,
+                "lng": 77.240303
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 3,
+                    "previous": "159",
+                    "next": "122"
+                }
+            }
+        },
+        "159": {
+            "id": "159",
+            "name": "Jama Masjid",
+            "coordinates": {
+                "lat": 28.650393,
+                "lng": 77.237556
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 2,
+                    "previous": "160",
+                    "next": "158"
+                }
+            }
+        },
+        "160": {
+            "id": "160",
+            "name": "Lal Quila",
+            "coordinates": {
+                "lat": 28.657576,
+                "lng": 77.236595
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 1,
+                    "previous": "8",
+                    "next": "159"
+                }
+            }
+        },
+        "161": {
+            "id": "161",
+            "name": "Okhla Bird Sanctuary",
+            "coordinates": {
+                "lat": 28.552816,
+                "lng": 77.321564
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 24,
+                    "previous": "162",
+                    "next": "81"
+                }
+            }
+        },
+        "162": {
+            "id": "162",
+            "name": "Kalindi Kunj",
+            "coordinates": {
+                "lat": 28.542835,
+                "lng": 77.310173
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 23,
+                    "previous": "163",
+                    "next": "161"
+                }
+            }
+        },
+        "163": {
+            "id": "163",
+            "name": "Jasola Vihar Shaheen Bagh",
+            "coordinates": {
+                "lat": 28.546005,
+                "lng": 77.296715
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 22,
+                    "previous": "164",
+                    "next": "162"
+                }
+            }
+        },
+        "164": {
+            "id": "164",
+            "name": "Okhla Vihar",
+            "coordinates": {
+                "lat": 28.561255,
+                "lng": 77.291916
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 21,
+                    "previous": "165",
+                    "next": "163"
+                }
+            }
+        },
+        "165": {
+            "id": "165",
+            "name": "Jamia Millia Islamia",
+            "coordinates": {
+                "lat": 28.562944,
+                "lng": 77.286209
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 20,
+                    "previous": "166",
+                    "next": "164"
+                }
+            }
+        },
+        "166": {
+            "id": "166",
+            "name": "Sukhdev Vihar",
+            "coordinates": {
+                "lat": 28.559887,
+                "lng": 77.275116
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 19,
+                    "previous": "167",
+                    "next": "165"
+                }
+            }
+        },
+        "167": {
+            "id": "167",
+            "name": "Okhla NSIC",
+            "coordinates": {
+                "lat": 28.554575,
+                "lng": 77.26487
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 18,
+                    "previous": "131",
+                    "next": "166"
+                }
+            }
+        },
+        "173": {
+            "id": "173",
+            "name": "Majlis Park",
+            "coordinates": {
+                "lat": 28.724157,
+                "lng": 77.182068
+            },
+            "lines": [
+                "magentaExt",
+                "pink",
+                "rapid"
+            ],
+            "interchange": true,
+            "routes": {
+                "magentaExt": {
+                    "sequence": 0,
+                    "previous": null,
+                    "next": null
+                },
+                "pink": {
+                    "sequence": 8,
+                    "previous": null,
+                    "next": "41"
+                },
+                "rapid": {
+                    "sequence": 0,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "174": {
+            "id": "174",
+            "name": "Shalimar Bagh",
+            "coordinates": {
+                "lat": 28.70182,
+                "lng": 77.165184
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 10,
+                    "previous": "41",
+                    "next": null
+                }
+            }
+        },
+        "175": {
+            "id": "175",
+            "name": "Shakurpur",
+            "coordinates": {
+                "lat": 28.685781,
+                "lng": 77.149651
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 12,
+                    "previous": null,
+                    "next": "176"
+                }
+            }
+        },
+        "176": {
+            "id": "176",
+            "name": "Punjabi Bagh West",
+            "coordinates": {
+                "lat": 28.672747,
+                "lng": 77.139183
+            },
+            "lines": [
+                "green",
+                "pink"
+            ],
+            "interchange": true,
+            "routes": {
+                "green": {
+                    "sequence": 5,
+                    "previous": "33",
+                    "next": "32"
+                },
+                "pink": {
+                    "sequence": 13,
+                    "previous": "175",
+                    "next": null
+                }
+            }
+        },
+        "178": {
+            "id": "178",
+            "name": "Mayapuri",
+            "coordinates": {
+                "lat": 28.637098,
+                "lng": 77.129738
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 16,
+                    "previous": "103",
+                    "next": "179"
+                }
+            }
+        },
+        "179": {
+            "id": "179",
+            "name": "Naraina Vihar",
+            "coordinates": {
+                "lat": 28.624121,
+                "lng": 77.136482
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 17,
+                    "previous": "178",
+                    "next": "180"
+                }
+            }
+        },
+        "180": {
+            "id": "180",
+            "name": "Delhi Cantt.",
+            "coordinates": {
+                "lat": 28.608641,
+                "lng": 77.140373
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 18,
+                    "previous": "179",
+                    "next": "181"
+                }
+            }
+        },
+        "181": {
+            "id": "181",
+            "name": "Durgabai Deshmukh South Campus",
+            "coordinates": {
+                "lat": 28.589376,
+                "lng": 77.169518
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 19,
+                    "previous": "180",
+                    "next": null
+                }
+            }
+        },
+        "182": {
+            "id": "182",
+            "name": "Nehru Enclave",
+            "coordinates": {
+                "lat": 28.545856,
+                "lng": 77.25116
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 16,
+                    "previous": "183",
+                    "next": "131"
+                }
+            }
+        },
+        "183": {
+            "id": "183",
+            "name": "Greater Kailash",
+            "coordinates": {
+                "lat": 28.541836,
+                "lng": 77.238243
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 15,
+                    "previous": "184",
+                    "next": "182"
+                }
+            }
+        },
+        "184": {
+            "id": "184",
+            "name": "Chirag Delhi",
+            "coordinates": {
+                "lat": 28.541229,
+                "lng": 77.229385
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 14,
+                    "previous": "185",
+                    "next": "183"
+                }
+            }
+        },
+        "185": {
+            "id": "185",
+            "name": "Panchsheel Park",
+            "coordinates": {
+                "lat": 28.542339,
+                "lng": 77.220512
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 13,
+                    "previous": "59",
+                    "next": "184"
+                }
+            }
+        },
+        "186": {
+            "id": "186",
+            "name": "IIT",
+            "coordinates": {
+                "lat": 28.547194,
+                "lng": 77.193832
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 11,
+                    "previous": null,
+                    "next": "59"
+                }
+            }
+        },
+        "188": {
+            "id": "188",
+            "name": "Munirka",
+            "coordinates": {
+                "lat": 28.557821,
+                "lng": 77.174026
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 9,
+                    "previous": "189",
+                    "next": null
+                }
+            }
+        },
+        "189": {
+            "id": "189",
+            "name": "Vasant Vihar",
+            "coordinates": {
+                "lat": 28.558378,
+                "lng": 77.160774
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 8,
+                    "previous": "190",
+                    "next": "188"
+                }
+            }
+        },
+        "190": {
+            "id": "190",
+            "name": "Shankar Vihar",
+            "coordinates": {
+                "lat": 28.560787,
+                "lng": 77.140442
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 7,
+                    "previous": "191",
+                    "next": "189"
+                }
+            }
+        },
+        "191": {
+            "id": "191",
+            "name": "Terminal 1- IGI Airport",
+            "coordinates": {
+                "lat": 28.565275,
+                "lng": 77.122391
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 6,
+                    "previous": null,
+                    "next": "190"
+                }
+            }
+        },
+        "193": {
+            "id": "193",
+            "name": "Palam",
+            "coordinates": {
+                "lat": 28.589067,
+                "lng": 77.082954
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 4,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "195": {
+            "id": "195",
+            "name": "Dabri Mor - Janakpuri South",
+            "coordinates": {
+                "lat": 28.615904,
+                "lng": 77.085258
+            },
+            "lines": [
+                "magenta"
+            ],
+            "interchange": false,
+            "routes": {
+                "magenta": {
+                    "sequence": 2,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "197": {
+            "id": "197",
+            "name": "Ghevra Metro station",
+            "coordinates": {
+                "lat": 28.685289,
+                "lng": 76.993584
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 18,
+                    "previous": null,
+                    "next": "198"
+                }
+            }
+        },
+        "198": {
+            "id": "198",
+            "name": "Tikri Kalan",
+            "coordinates": {
+                "lat": 28.686899,
+                "lng": 76.977249
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 19,
+                    "previous": "197",
+                    "next": "199"
+                }
+            }
+        },
+        "199": {
+            "id": "199",
+            "name": "Tikri Border",
+            "coordinates": {
+                "lat": 28.687876,
+                "lng": 76.963783
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 20,
+                    "previous": "198",
+                    "next": "200"
+                }
+            }
+        },
+        "200": {
+            "id": "200",
+            "name": "Pandit Shree Ram Sharma",
+            "coordinates": {
+                "lat": 28.689213,
+                "lng": 76.951088
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 21,
+                    "previous": "199",
+                    "next": "201"
+                }
+            }
+        },
+        "201": {
+            "id": "201",
+            "name": "Bahadurgarh City",
+            "coordinates": {
+                "lat": 28.690784,
+                "lng": 76.935265
+            },
+            "lines": [
+                "green"
+            ],
+            "interchange": false,
+            "routes": {
+                "green": {
+                    "sequence": 22,
+                    "previous": "200",
+                    "next": null
+                }
+            }
+        },
+        "204": {
+            "id": "204",
+            "name": "Bhikaji Cama Place",
+            "coordinates": {
+                "lat": 28.570208,
+                "lng": 77.187866
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 21,
+                    "previous": null,
+                    "next": "205"
+                }
+            }
+        },
+        "205": {
+            "id": "205",
+            "name": "Sarojini Nagar",
+            "coordinates": {
+                "lat": 28.570208,
+                "lng": 77.187866
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 22,
+                    "previous": "204",
+                    "next": "56"
+                }
+            }
+        },
+        "206": {
+            "id": "206",
+            "name": "South Extension",
+            "coordinates": {
+                "lat": 28.5686,
+                "lng": 77.219818
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 24,
+                    "previous": "56",
+                    "next": "127"
+                }
+            }
+        },
+        "208": {
+            "id": "208",
+            "name": "East Vinod Nagar - Mayur Vihar-II",
+            "coordinates": {
+                "lat": 28.620052,
+                "lng": 77.305588
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 32,
+                    "previous": null,
+                    "next": "209"
+                }
+            }
+        },
+        "209": {
+            "id": "209",
+            "name": "Mandawali - West Vinod Nagar",
+            "coordinates": {
+                "lat": 28.624861,
+                "lng": 77.304146
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 33,
+                    "previous": "208",
+                    "next": null
+                }
+            }
+        },
+        "211": {
+            "id": "211",
+            "name": "Karkarduma Court",
+            "coordinates": {
+                "lat": 28.649473,
+                "lng": 77.295341
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 37,
+                    "previous": "75",
+                    "next": "212"
+                }
+            }
+        },
+        "212": {
+            "id": "212",
+            "name": "Krishna Nagar",
+            "coordinates": {
+                "lat": 28.65782,
+                "lng": 77.290306
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 38,
+                    "previous": "211",
+                    "next": "213"
+                }
+            }
+        },
+        "213": {
+            "id": "213",
+            "name": "East Azad Nagar",
+            "coordinates": {
+                "lat": 28.665043,
+                "lng": 77.284599
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 39,
+                    "previous": "212",
+                    "next": "5"
+                }
+            }
+        },
+        "214": {
+            "id": "214",
+            "name": "Jafrabad",
+            "coordinates": {
+                "lat": 28.682943,
+                "lng": 77.27507
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 41,
+                    "previous": "5",
+                    "next": "215"
+                }
+            }
+        },
+        "215": {
+            "id": "215",
+            "name": "Maujpur - Babarpur",
+            "coordinates": {
+                "lat": 28.692057,
+                "lng": 77.280922
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 42,
+                    "previous": "214",
+                    "next": null
+                }
+            }
+        },
+        "219": {
+            "id": "219",
+            "name": "Sant Surdas (Sihi)",
+            "coordinates": {
+                "lat": 28.354666,
+                "lng": 77.316261
+            },
+            "lines": [
+                "violet"
+            ],
+            "interchange": false,
+            "routes": {
+                "violet": {
+                    "sequence": 32,
+                    "previous": "147",
+                    "next": null
+                }
+            }
+        },
+        "221": {
+            "id": "221",
+            "name": "Vinobapuri",
+            "coordinates": {
+                "lat": 28.566179,
+                "lng": 77.249367
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 26,
+                    "previous": "127",
+                    "next": "222"
+                }
+            }
+        },
+        "222": {
+            "id": "222",
+            "name": "Ashram",
+            "coordinates": {
+                "lat": 28.576065,
+                "lng": 77.25753
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 27,
+                    "previous": "221",
+                    "next": "223"
+                }
+            }
+        },
+        "223": {
+            "id": "223",
+            "name": "Sarai Kale Khan - Nizamuddin",
+            "coordinates": {
+                "lat": 28.5889,
+                "lng": 77.253189
+            },
+            "lines": [
+                "pink"
+            ],
+            "interchange": false,
+            "routes": {
+                "pink": {
+                    "sequence": 28,
+                    "previous": "222",
+                    "next": "87"
+                }
+            }
+        },
+        "226": {
+            "id": "226",
+            "name": "Hindon River",
+            "coordinates": {
+                "lat": 28.673508,
+                "lng": 77.40654
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 1,
+                    "previous": null,
+                    "next": "227"
+                }
+            }
+        },
+        "227": {
+            "id": "227",
+            "name": "Arthala",
+            "coordinates": {
+                "lat": 28.6772,
+                "lng": 77.391876
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 2,
+                    "previous": "226",
+                    "next": "228"
+                }
+            }
+        },
+        "228": {
+            "id": "228",
+            "name": "Mohan Nagar",
+            "coordinates": {
+                "lat": 28.67856,
+                "lng": 77.384209
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 3,
+                    "previous": "227",
+                    "next": "229"
+                }
+            }
+        },
+        "229": {
+            "id": "229",
+            "name": "Shyam Park",
+            "coordinates": {
+                "lat": 28.678217,
+                "lng": 77.370911
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 4,
+                    "previous": "228",
+                    "next": null
+                }
+            }
+        },
+        "231": {
+            "id": "231",
+            "name": "Raj Bagh",
+            "coordinates": {
+                "lat": 28.677122,
+                "lng": 77.346466
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 6,
+                    "previous": null,
+                    "next": "232"
+                }
+            }
+        },
+        "232": {
+            "id": "232",
+            "name": "Shaheed Nagar",
+            "coordinates": {
+                "lat": 28.676615,
+                "lng": 77.333809
+            },
+            "lines": [
+                "red"
+            ],
+            "interchange": false,
+            "routes": {
+                "red": {
+                    "sequence": 7,
+                    "previous": "231",
+                    "next": "1"
+                }
+            }
+        },
+        "238": {
+            "id": "238",
+            "name": "Noida Electronic City",
+            "coordinates": {
+                "lat": 28.628685,
+                "lng": 77.375229
+            },
+            "lines": [
+                "blue"
+            ],
+            "interchange": false,
+            "routes": {
+                "blue": {
+                    "sequence": 49,
+                    "previous": null,
+                    "next": null
+                }
+            }
+        },
+        "239": {
+            "id": "239",
+            "name": "Nangli",
+            "coordinates": {
+                "lat": 28.61722,
+                "lng": 77.010345
+            },
+            "lines": [
+                "grey"
+            ],
+            "interchange": false,
+            "routes": {
+                "grey": {
+                    "sequence": 1,
+                    "previous": null,
+                    "next": "240"
+                }
+            }
+        },
+        "240": {
+            "id": "240",
+            "name": "Najafgarh",
+            "coordinates": {
+                "lat": 28.613316,
+                "lng": 76.986259
+            },
+            "lines": [
+                "grey"
+            ],
+            "interchange": false,
+            "routes": {
+                "grey": {
+                    "sequence": 2,
+                    "previous": "239",
+                    "next": "241"
+                }
+            }
+        },
+        "241": {
+            "id": "241",
+            "name": "Dhansa Bus Stand",
+            "coordinates": {
+                "lat": 28.611858,
+                "lng": 76.975426
+            },
+            "lines": [
+                "grey"
+            ],
+            "interchange": false,
+            "routes": {
+                "grey": {
+                    "sequence": 3,
+                    "previous": "240",
+                    "next": null
+                }
+            }
+        }
+    },
+    "lines": {
+        "red": {
+            "stations": [
+                "226",
+                "227",
+                "228",
+                "229",
+                "231",
+                "232",
+                "1",
+                "2",
+                "4",
+                "5",
+                "7",
+                "8",
+                "9",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "17",
+                "21"
+            ]
+        },
+        "pink": {
+            "stations": [
+                "173",
+                "41",
+                "174",
+                "175",
+                "176",
+                "103",
+                "178",
+                "179",
+                "180",
+                "181",
+                "204",
+                "205",
+                "56",
+                "206",
+                "127",
+                "221",
+                "222",
+                "223",
+                "87",
+                "208",
+                "209",
+                "75",
+                "211",
+                "212",
+                "213",
+                "5",
+                "214",
+                "215"
+            ]
+        },
+        "yellow": {
+            "stations": [
+                "36",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "44",
+                "45",
+                "46",
+                "8",
+                "47",
+                "48",
+                "50",
+                "51",
+                "52",
+                "54",
+                "56",
+                "57",
+                "58",
+                "59",
+                "60",
+                "61",
+                "62",
+                "64",
+                "65",
+                "66",
+                "68",
+                "70"
+            ]
+        },
+        "violet": {
+            "stations": [
+                "8",
+                "160",
+                "159",
+                "158",
+                "122",
+                "92",
+                "123",
+                "52",
+                "124",
+                "126",
+                "127",
+                "128",
+                "129",
+                "130",
+                "131",
+                "132",
+                "133",
+                "134",
+                "135",
+                "136",
+                "137",
+                "138",
+                "139",
+                "140",
+                "141",
+                "142",
+                "143",
+                "144",
+                "145",
+                "146",
+                "147",
+                "219"
+            ]
+        },
+        "green": {
+            "stations": [
+                "100",
+                "35",
+                "13",
+                "34",
+                "33",
+                "176",
+                "32",
+                "31",
+                "30",
+                "29",
+                "27",
+                "26",
+                "25",
+                "24",
+                "23",
+                "22",
+                "197",
+                "198",
+                "199",
+                "200",
+                "201"
+            ]
+        },
+        "magentaExt": {
+            "stations": [
+                "173",
+                "38"
+            ]
+        },
+        "rapid": {
+            "stations": [
+                "173",
+                "38"
+            ]
+        },
+        "blue": {
+            "stations": [
+                "121",
+                "120",
+                "119",
+                "118",
+                "117",
+                "116",
+                "115",
+                "114",
+                "112",
+                "111",
+                "110",
+                "109",
+                "106",
+                "104",
+                "103",
+                "102",
+                "101",
+                "100",
+                "99",
+                "98",
+                "97",
+                "96",
+                "95",
+                "50",
+                "92",
+                "91",
+                "90",
+                "89",
+                "88",
+                "87",
+                "85",
+                "81",
+                "80",
+                "79",
+                "238"
+            ]
+        },
+        "magenta": {
+            "stations": [
+                "195",
+                "193",
+                "191",
+                "190",
+                "189",
+                "188",
+                "186",
+                "59",
+                "185",
+                "184",
+                "183",
+                "182",
+                "131",
+                "167",
+                "166",
+                "165",
+                "164",
+                "163",
+                "162",
+                "161",
+                "81"
+            ]
+        },
+        "blueExt": {
+            "stations": [
+                "157",
+                "156",
+                "155",
+                "121"
+            ]
+        },
+        "pinkExt": {
+            "stations": [
+                "157",
+                "156",
+                "155",
+                "121"
+            ]
+        },
+        "orange": {
+            "stations": [
+                "157",
+                "156",
+                "155",
+                "121"
+            ]
+        },
+        "grey": {
+            "stations": [
+                "239",
+                "240",
+                "241"
+            ]
+        }
+    }
+}
