@@ -1,0 +1,205 @@
+{
+    "info": {
+        "_postman_id": "b8a9f5e2-2d6c-4b8a-9c1f-7e4d5a6b8c21",
+        "name": "Metro API",
+        "description": "Postman collection for the Metro Navigation API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "variable": [
+        {
+            "key": "baseUrl",
+            "value": "http://localhost:5000",
+            "type": "string"
+        },
+        {
+            "key": "stationId",
+            "value": "72",
+            "type": "string"
+        },
+        {
+            "key": "lineId",
+            "value": "red",
+            "type": "string"
+        },
+        {
+            "key": "latitude",
+            "value": "28.675991",
+            "type": "string"
+        },
+        {
+            "key": "longitude",
+            "value": "77.321495",
+            "type": "string"
+        }
+    ],
+    "item": [
+        {
+            "name": "Health",
+            "item": [
+                {
+                    "name": "Health Check",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/api/health",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "api",
+                                "health"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Stations",
+            "item": [
+                {
+                    "name": "Get All Stations",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/api/stations",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "api",
+                                "stations"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Get Station By ID",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/api/stations/{{stationId}}",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "api",
+                                "stations",
+                                "{{stationId}}"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Get Station Lines",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/api/stations/{{stationId}}/lines",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "api",
+                                "stations",
+                                "{{stationId}}",
+                                "lines"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Find Nearest Station",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/api/stations/nearest?lat={{latitude}}&lng={{longitude}}",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "api",
+                                "stations",
+                                "nearest"
+                            ],
+                            "query": [
+                                {
+                                    "key": "lat",
+                                    "value": "{{latitude}}"
+                                },
+                                {
+                                    "key": "lng",
+                                    "value": "{{longitude}}"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Get Stations By Line",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/api/stations/line/{{lineId}}",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "api",
+                                "stations",
+                                "line",
+                                "{{lineId}}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Lines",
+            "item": [
+                {
+                    "name": "Get All Lines",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/api/lines",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "api",
+                                "lines"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Get Line By ID",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/api/lines/{{lineId}}",
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "path": [
+                                "api",
+                                "lines",
+                                "{{lineId}}"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
